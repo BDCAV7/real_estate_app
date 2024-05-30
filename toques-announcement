@@ -1,0 +1,82 @@
+[33mcommit 394d3d5f79d920b2a6ed81bebebe4d7f9dcab0be[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32majustes-announcement[m[33m, [m[1;31morigin/join-branches[m[33m, [m[1;32mjoin-branches[m[33m)[m
+Author: melvintivane <mtivane@technoplus.co.mz>
+Date:   Tue May 28 20:07:48 2024 +0200
+
+    Merge "develop" with "design-last" branches
+
+[33mcommit 566c231abe7f2a5db50a0de0eec061bc7e6ad719[m
+Merge: d1d3f6a 3862374
+Author: melvintivane <mtivane@technoplus.co.mz>
+Date:   Mon May 27 09:31:04 2024 +0200
+
+    Merge branch 'develop' into join-branches
+
+[33mcommit 38623744d43d790d9a23fa0783bb1eb2884065d8[m[33m ([m[1;31morigin/develop[m[33m)[m
+Author: melvintivane <mtivane@technoplus.co.mz>
+Date:   Mon May 27 08:56:01 2024 +0200
+
+    last updates in develop
+
+[33mcommit d1d3f6a2b2971223200444ab6fcf9ce9994ec5ff[m[33m ([m[1;31morigin/design-last[m[33m)[m
+Author: Rdk26 <rdkbuanali7@gmail.com>
+Date:   Mon May 27 08:54:26 2024 +0200
+
+    ultimas alterações
+
+[33mcommit 7fd7034df932293220807b1057a6a85542eb4863[m
+Author: melvintivane <mtivane@technoplus.co.mz>
+Date:   Sun May 26 20:14:00 2024 +0200
+
+    feat: add ability to submit announcement with owner information
+    
+    Refactor the `submitAnnouncement` method in `AddAnnouncementPageState` to include the owner information obtained from the `UserModel` provider.
+
+[33mcommit 135d6a512a0a7f930b29719d69493badf39fe54b[m
+Author: melvintivane <mtivane@technoplus.co.mz>
+Date:   Sun May 26 17:39:19 2024 +0200
+
+    feat(auth): integrate user data management with Provider
+    
+    - Add Provider package to manage user data state across the app
+    - Update `login_page.dart` to set user data in Provider upon login
+    - Modify `main.dart` to include `UserModel` in the MultiProvider
+    - Refactor `user.dart` to use `ChangeNotifier` for state management
+    - Remove deprecated `firebase_auth_services.dart` and `user_repository.dart`
+    - Update `home.dart` to display username from Provider
+    - Adjust pubspec.yaml and pubspec.lock to include Provider as a direct dependency
+
+[33mcommit 870cb3f799c0086767d5e1b4f66a7ce7eb034639[m
+Author: melvintivane <mtivane@technoplus.co.mz>
+Date:   Sun May 26 08:09:19 2024 +0200
+
+    update
+
+[33mcommit 67f81125cd12607935b9cffa0c7c5a51e72f90f3[m[33m ([m[1;31morigin/design[m[33m)[m
+Author: Rdk26 <rdkbuanali7@gmail.com>
+Date:   Tue May 21 20:58:28 2024 +0200
+
+    Funcionalidades no desing
+
+[33mcommit c5fe16a430d8d3c4dde32cd231daea1283b9e3b9[m
+Author: melvintivane <mtivane@technoplus.co.mz>
+Date:   Sat May 18 19:03:26 2024 +0200
+
+    feat: implement authentication via firebase
+
+[33mcommit 4ed1f6cad4dec2571424398bbef7396474648262[m
+Author: melvintivane <mtivane@technoplus.co.mz>
+Date:   Fri May 3 14:46:36 2024 +0200
+
+    refactor: reorganized pages
+
+[33mcommit 895b92151627df7c193e62592c9095911f8cb0ef[m
+Author: melvintivane <mtivane@technoplus.co.mz>
+Date:   Sat May 11 23:18:38 2024 +0200
+
+    build: configure firebase
+
+[33mcommit 862e001ae0636f9be150c88feea717f260127ec8[m
+Author: Rdk26 <rdkbuanali7@gmail.com>
+Date:   Wed May 1 18:17:07 2024 +0200
+
+    initial commit

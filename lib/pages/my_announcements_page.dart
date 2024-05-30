@@ -11,7 +11,7 @@ class MyAnnouncementsPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: const Text('Meus Anúncios'),
+        title: const Text('Meus anúncios'),
       ),
       body: StreamBuilder<QuerySnapshot>(
         stream: FirebaseFirestore.instance
@@ -23,7 +23,7 @@ class MyAnnouncementsPage extends StatelessWidget {
             return const Center(child: CircularProgressIndicator());
           }
           if (!snapshot.hasData || snapshot.data!.docs.isEmpty) {
-            return const Center(child: Text('Nenhum anúncio encontrado.'));
+            return const Center(child: Text('Nenhum Anúncio encontrado. '));
           }
           return ListView(
             children: snapshot.data!.docs.map((doc) {
