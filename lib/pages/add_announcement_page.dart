@@ -27,7 +27,7 @@ class AddAnnouncementPageState extends State<AddAnnouncementPage> {
   final TextEditingController _locationController = TextEditingController();
   final TextEditingController _priceController = TextEditingController();
   final TextEditingController _titleController = TextEditingController();
-  final TextEditingController _imageUrlController = TextEditingController();
+  final TextEditingController _imageURLController = TextEditingController();
   final List<XFile> _images = [];
 
   final ImagePicker _picker = ImagePicker();
@@ -292,7 +292,7 @@ class AddAnnouncementPageState extends State<AddAnnouncementPage> {
               ),
               const SizedBox(height: 20),
               TextFormField(
-                controller: _imageUrlController,
+                controller: _imageURLController,
                 decoration: const InputDecoration(
                   labelText: 'Url da imagem',
                   border: OutlineInputBorder(
